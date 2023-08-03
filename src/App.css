@@ -1,0 +1,84 @@
+:root {
+    --red: #dd7373ff;
+    --blue: #3b3561ff;
+    --lightblue: #51a3a3ff;
+    --darkblue: rgb(16, 14, 26);
+    --yellow: #ead94cff;
+    --grey: #d1d1d1ff;
+  }
+
+.navbar { 
+    background-color: var(--blue); 
+}
+
+.navbar-text{
+    color: var(--red);
+}
+
+.navbar li a {
+    color: white;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar .nav-item .nav-link:focus {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.e {
+    font-size: 120%;
+    color: var(--red);
+}
+
+.card {
+    border: 2px solid var(--red);
+}
+
+.card-header {
+    background: var(--red);
+    border-bottom: none;
+}
+
+.home-icons {
+    font-size: 100px;
+    color: var(--blue);
+}
+
+.btn-action-container{
+    width: 150px;
+}
+
+.btn-action{
+    padding-left: 1.7rem;
+    background: var(--lightblue);
+    color: rgb(13, 11, 20);
+}
+
+.btn-action:hover{
+    border: 1px solid rgb(13, 11, 20);
+    color: rgb(13, 11, 20);
+}
+
+.arrow-right{
+    color: rgb(13, 11, 20);
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    margin-left: 0.8rem;
+    border-left: 1px solid rgba(13, 11, 20, 0.5);
+}
+
+.btn-action:hover .arrow-right{
+    color: rgb(13, 11, 20);
+    border-left: 1px solid rgb(13, 11, 20);
+}
+
+.footer {
+    color: var(--lightblue);;
+    background: rgb(13, 11, 20); /* #001309; */
+}
+
+@media only screen and (max-width: 576px) {
+  }
