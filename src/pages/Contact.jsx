@@ -7,7 +7,7 @@ export default function Contact() {
             <h1 className='text-center mt-5 mb-4'>Kapcsolat</h1>
             
             <h5>Istentiszteleteinket itt tartjuk:</h5>
-            <p>Zalaegerszeg, Závodszky István utca 1.</p>
+            <p>Zalaegerszeg, Závodszky István utca 1. II. emelet</p>
             <p>Ez a volt nyomda irodáinak épülete.</p>
             <p>A térkép közepén piros jelölő mutatja a pontos helyet.</p>
 

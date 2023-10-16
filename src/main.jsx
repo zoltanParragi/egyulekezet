@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.css'
 import App from './App.jsx'
 import './index.css'
-import {
+/* import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
+} from "react-router-dom"; */
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
