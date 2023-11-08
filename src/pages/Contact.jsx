@@ -15,7 +15,7 @@ export default function Contact() {
         </div>
 
 
-        <div className="mt-5">
+        <div className="mt-5 mb-5">
           <h3 className="mb-3">Írj nekünk!</h3>
           <div className="col-md-6 mx-auto">
             <form className='d-flex flex-column' action="https://api.web3forms.com/submit" method="POST">
