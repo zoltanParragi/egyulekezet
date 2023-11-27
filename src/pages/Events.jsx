@@ -1,15 +1,14 @@
-import React from 'react'
 
 export default function Events() {
   return (
     <div className='container p-3 p-sm-5'>
-        <div className='row col-md-10 mx-auto'>
+        <div className='row col-md-10 mx-auto p-0'>
             <h1 className='text-center mt-5 mb-4'>Események</h1>
 
-            <div className='mb-5'>
+            <div className='mb-5 p-0'>
               <h3>Egy esemény</h3>
               <p className='fst-italic'>Dátum: xxxx.xx.xx xx órakor</p>
-              <div className='row col-md-6 mx-md-auto mb-2 ps-0 pe-0'>
+              <div className='row col-md-6 mx-auto mb-2 ps-0 pe-0'>
                 <img src="https://placehold.co/600x400/lightblue/white" width={400} alt="placeholder" />
               </div>
               <p>
@@ -17,10 +16,10 @@ export default function Events() {
               </p>
             </div>
 
-            <div>
+            <div className=' p-0'>
               <h3>Másik esemény</h3>
               <p className='fst-italic'>Dátum: xxxx.xx.xx xx órakor</p>
-              <div className='row col-md-6 mx-md-auto mb-2 ps-0 pe-0'>
+              <div className='row col-md-6 mx-auto mb-2 ps-0 pe-0'>
                 <img src="https://placehold.co/600x400/lightblue/white" width={400} alt="placeholder" />
               </div>
               <p>

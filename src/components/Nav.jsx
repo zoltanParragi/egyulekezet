@@ -15,18 +15,18 @@ export default function Nav() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to={"/oldalak/rolunk"} className="nav-link p-0 m-2">
-                            Rólunk
-                        </Link>
-                    </li>
-                    <li className="nav-item">
                         <Link to={"/oldalak/kozosseg"} className="nav-link p-0 m-2">
-                            Közösség
+                            Állandó alklamaink
                         </Link>
                     </li>
                     <li className="nav-item">
                         <Link to={"/oldalak/esemenyek"} className="nav-link p-0 m-2">
                             Események
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to={"/oldalak/rolunk"} className="nav-link p-0 m-2">
+                            Rólunk
                         </Link>
                     </li>
                     <li className="nav-item">
