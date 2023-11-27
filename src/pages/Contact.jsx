@@ -31,7 +31,7 @@ export default function Contact() {
               <label htmlFor="email">Email</label>
               <input type="email" name="email" id="email" required className='mb-3' />
               <label htmlFor="message" className="lang" key="FORM_MESSAGE">Üzenet</label>
-              <textarea name="message" id="message" required className='mb-3'></textarea>
+              <textarea name="message" id="message" required  rows="5" cols="50" className='mb-3'></textarea>
               <input type="hidden" name="redirect" value="https://web3forms.com/success" />
               <button type="submit" className='btn btn-action col-6 col-md-4 col-lg-3 p-0 pt-1 pb-1 text-center'>Elküld</button>
             </form>
