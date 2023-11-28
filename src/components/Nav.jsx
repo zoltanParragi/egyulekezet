@@ -16,7 +16,7 @@ export default function Nav() {
                     </li>
                     <li className="nav-item">
                         <Link to={"/oldalak/kozosseg"} className="nav-link p-0 m-2">
-                            Állandó alklamaink
+                            Állandó alkalmaink
                         </Link>
                     </li>
                     <li className="nav-item">

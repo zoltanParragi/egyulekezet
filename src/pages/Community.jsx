@@ -3,7 +3,7 @@ export default function Community() {
   return (
     
     <div className='container p-3 p-sm-5'>
-            <h1 className='text-center mt-5 mb-5'>Állandó alklamaink</h1>
+            <h1 className='text-center mt-5 mb-5'>Állandó alkalmaink</h1>
         <div className='d-flex flex-column flex-lg-row justify-content-around mb-5'>
             <div>
               <div className='mb-4'>
